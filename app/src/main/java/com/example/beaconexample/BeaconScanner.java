@@ -31,6 +31,8 @@ import java.util.List;
 
 public class BeaconScanner implements BeaconConsumer {
 
+    // 아마도 연습 주석
+
     //TODO [실시간 비콘 스캐닝을 하기 위한 변수 및 객체 선언 실시]
     private BeaconManager beaconManager; // [비콘 매니저 객체]
     private List<Beacon> beaconList = new ArrayList<>(); // [실시간 비콘 감지 배열]
